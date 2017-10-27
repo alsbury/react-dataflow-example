@@ -3,6 +3,7 @@
 // normally, our interface to any sort of server API will be as a service
 
 import _ from 'lodash';
+import "babel-polyfill";
 
 const REDDIT_ENDPOINT = 'https://www.reddit.com';
 
